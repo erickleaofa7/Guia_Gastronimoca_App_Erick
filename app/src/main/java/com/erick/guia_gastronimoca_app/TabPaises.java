@@ -26,8 +26,6 @@ public class TabPaises extends AppCompatActivity {
         setContentView(R.layout.activity_tab_paises);
         tabLayout = findViewById(R.id.tabPais);
         viewPager = findViewById(R.id.viepager);
-        encebollado = findViewById(R.id.btnEncebollado);
-
 
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
