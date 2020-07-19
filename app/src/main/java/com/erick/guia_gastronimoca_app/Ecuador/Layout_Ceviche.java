@@ -1,6 +1,7 @@
 package com.erick.guia_gastronimoca_app.Ecuador;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.erick.guia_gastronimoca_app.R;
 
 import android.os.Bundle;
