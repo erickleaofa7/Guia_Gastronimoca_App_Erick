@@ -1,4 +1,4 @@
-package com.erick.guia_gastronimoca_app.Peru;
+package com.erick.guia_gastronimoca_app.Colombia;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -9,31 +9,30 @@ import com.google.android.material.tabs.TabLayout;
 
 import android.os.Bundle;
 
-public class Tab_Peru extends AppCompatActivity {
+public class Tab_Colombia extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
-    PagerController pagerAdapterPe;
+    PagerController pagerAdapterCol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tab__peru);
+        setContentView(R.layout.activity_tab__colombia);
 
-
-        pagerAdapterPe = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
-        viewPager.setAdapter(pagerAdapterPe);
+        pagerAdapterCol = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
+        viewPager.setAdapter(pagerAdapterCol);
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
                 if(tab.getPosition()==0){
-                    pagerAdapterPe.notifyDataSetChanged();
+                    pagerAdapterCol.notifyDataSetChanged();
 
 
                 }
                 if(tab.getPosition()==1){
-                    pagerAdapterPe.notifyDataSetChanged();
+                    pagerAdapterCol.notifyDataSetChanged();
                 }
             }
 
@@ -49,6 +48,5 @@ public class Tab_Peru extends AppCompatActivity {
         });
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
     }
-
 
 }
