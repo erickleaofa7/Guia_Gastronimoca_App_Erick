@@ -10,8 +10,8 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabPais"
         android:layout_width="match_parent"
-        android:background="@color/colorAccent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/costa"
@@ -29,6 +29,7 @@
 
 
     </com.google.android.material.tabs.TabLayout>
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viepager"
         android:layout_width="match_parent"
