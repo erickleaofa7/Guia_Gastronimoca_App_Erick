@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".controlador.FragmentSierra">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="YAHUARLOCRO"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnYahuarlocro"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:src="@drawable/yag" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="HORNADO"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnHornado"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:src="@drawable/h3" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "278155518165",
+    "firebase_url": "https://guiagastronomicabdd.firebaseio.com",
+    "project_id": "guiagastronomicabdd",
+    "storage_bucket": "guiagastronomicabdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278155518165:android:f957182b42b0570818825c",
+        "android_client_info": {
+          "package_name": "com.erick.guia_gastronimoca_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278155518165-8hvk2aglrtshi3lf0s9u8uditpc704jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiBIJSHmDmMrUdLeJ-15Xj_yrgIcCAho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278155518165-8hvk2aglrtshi3lf0s9u8uditpc704jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

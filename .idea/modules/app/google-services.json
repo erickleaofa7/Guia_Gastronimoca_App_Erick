@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178725194751",
+    "firebase_url": "https://guiagastronimocaapp.firebaseio.com",
+    "project_id": "guiagastronimocaapp",
+    "storage_bucket": "guiagastronimocaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178725194751:android:f5443fb8140837c499f5ca",
+        "android_client_info": {
+          "package_name": "com.erick.guia_gastronimoca_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178725194751-3qdg9rid35b9k0j92uc48g9i3doo4l03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erick.guia_gastronimoca_app",
+            "certificate_hash": "ed2f9cdd6ff9093702078003884ab036bb75fd05"
+          }
+        },
+        {
+          "client_id": "178725194751-10ep5ir66ppgmngk0io3s51bojl2lbv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL_m19fZSI2s7MeaEGgKL10IH0arxuKvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178725194751-10ep5ir66ppgmngk0io3s51bojl2lbv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

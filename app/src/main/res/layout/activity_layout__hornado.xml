@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ecuador.Layout_Hornado">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/receta"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:background="#273EC5"
+                android:gravity="center"
+                android:drawableStart="@drawable/ingredients"
+                android:text="@string/ingredientes"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtEncevollado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:background="#273EC5"
+                android:gravity="center"
+                android:drawableStart="@drawable/preparacion"
+                android:text="Preparación"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtPreparacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:background="#273EC5"
+                android:gravity="center"
+                android:drawableStart="@drawable/consejo"
+                android:text="@string/consejo_de_cocina"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtConsejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

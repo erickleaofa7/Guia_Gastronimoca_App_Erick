@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".controlador.FragmentCosta">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/costa"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnEncebollado"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/encebollado" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="CEVICHE DE CAMARON"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnCeviche"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/cev1" />
+
+
+</LinearLayout>
