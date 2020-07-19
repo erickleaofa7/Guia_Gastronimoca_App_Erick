@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
+2
 import com.erick.guia_gastronimoca_app.R;
 
 public class Layout_Encebollado extends AppCompatActivity {
