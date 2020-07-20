@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".Peru.Controlador.FragmentSierraPe">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="JUANES DE YUCA"
+        android:textSize="18sp" />
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/btnJade"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/juan2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="JUANES DE YUCA"
+        android:textSize="18sp" />
+
+</LinearLayout>
