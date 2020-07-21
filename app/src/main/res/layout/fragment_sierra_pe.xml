@@ -27,7 +27,13 @@
         android:layout_height="match_parent"
         android:layout_marginTop="20sp"
         android:gravity="center"
-        android:text="JUANES DE YUCA"
+        android:text="LLUNCA CASHQUI"
         android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnLlunca"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/llucpe" />
 
 </LinearLayout>

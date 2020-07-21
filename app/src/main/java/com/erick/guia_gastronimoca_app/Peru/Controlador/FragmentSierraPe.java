@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.erick.guia_gastronimoca_app.Ecuador.Layout_Yahuarlocro;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Juane;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Llunca;
 import com.erick.guia_gastronimoca_app.R;
 import com.erick.guia_gastronimoca_app.controlador.FragmentSierra;
 
@@ -32,7 +34,7 @@ public class FragmentSierraPe extends Fragment {
     private String mParam2;
 
     View view;
-    ImageButton juane;
+    ImageButton juane,llunca;
 
     public FragmentSierraPe() {
         // Required empty public constructor
@@ -73,7 +75,17 @@ public class FragmentSierraPe extends Fragment {
         juane.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ecu = new Intent(FragmentSierraPe.this.getActivity(), Layout_Yahuarlocro.class);
+                Intent ecu = new Intent(FragmentSierraPe.this.getActivity(), Layout_Juane.class);
+                startActivity(ecu);
+                Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        llunca = view.findViewById(R.id.btnLlunca);
+        llunca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ecu = new Intent(FragmentSierraPe.this.getActivity(), Layout_Llunca.class);
                 startActivity(ecu);
                 Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
             }

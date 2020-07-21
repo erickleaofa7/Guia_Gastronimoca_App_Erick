@@ -19,7 +19,8 @@ public class Tab_Peru extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab__peru);
-
+        tabLayout = findViewById(R.id.tabPeru);
+        viewPager = findViewById(R.id.viepager);
 
         pagerAdapterPe = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapterPe);

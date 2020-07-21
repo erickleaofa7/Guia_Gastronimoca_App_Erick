@@ -1,5 +1,6 @@
 package com.erick.guia_gastronimoca_app.Peru.Controlador;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,7 +8,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
+import com.erick.guia_gastronimoca_app.Peru.Layout_Chupe;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Escabeche;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Juane;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Llunca;
 import com.erick.guia_gastronimoca_app.R;
 
 /**
@@ -25,6 +32,10 @@ public class FragmentCostaPe extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    View view;
+    ImageButton pescado,chupe;
+
 
     public FragmentCostaPe() {
         // Required empty public constructor
@@ -60,7 +71,26 @@ public class FragmentCostaPe extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_costa_pe, container, false);
+        view = inflater.inflate(R.layout.fragment_sierra, container, false);
+        pescado = view.findViewById(R.id.btnJade);
+        pescado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ecu = new Intent(FragmentCostaPe.this.getActivity(), Layout_Escabeche.class);
+                startActivity(ecu);
+                Toast.makeText(getContext(),"CUIDAD DE PIURA", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        chupe = view.findViewById(R.id.btnLlunca);
+        chupe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ecu = new Intent(FragmentCostaPe.this.getActivity(), Layout_Chupe.class);
+                startActivity(ecu);
+                Toast.makeText(getContext(),"CUIDAD DE PIURA", Toast.LENGTH_LONG).show();
+            }
+        });
+        return view;
     }
 }

@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".Peru.Controlador.FragmentCostaPe">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="ESCABECHE DE PESCADO"
+        android:textSize="18sp" />
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/btnPescado"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/esca2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="CHUPE DE CAMARONES"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnChupe"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/chepee" />
+
+</LinearLayout>
