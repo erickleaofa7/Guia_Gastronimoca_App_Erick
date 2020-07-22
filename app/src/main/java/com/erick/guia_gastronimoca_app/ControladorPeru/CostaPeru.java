@@ -1,5 +1,6 @@
-package com.erick.guia_gastronimoca_app.Peru.Controlador;
+package com.erick.guia_gastronimoca_app.ControladorPeru;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,15 +8,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
+import com.erick.guia_gastronimoca_app.Peru.Layout_Chupe;
+import com.erick.guia_gastronimoca_app.Peru.Layout_Escabeche;
 import com.erick.guia_gastronimoca_app.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link FragmentSierraPe#newInstance} factory method to
+ * Use the {@link CostaPeru#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentSierraPe extends Fragment {
+public class CostaPeru extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +31,10 @@ public class FragmentSierraPe extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public FragmentSierraPe() {
+    View view;
+    ImageButton pescado,chupe;
+
+    public CostaPeru() {
         // Required empty public constructor
     }
 
@@ -36,11 +44,11 @@ public class FragmentSierraPe extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentSierraPe.
+     * @return A new instance of fragment CostaPeru.
      */
     // TODO: Rename and change types and number of parameters
-    public static FragmentSierraPe newInstance(String param1, String param2) {
-        FragmentSierraPe fragment = new FragmentSierraPe();
+    public static CostaPeru newInstance(String param1, String param2) {
+        CostaPeru fragment = new CostaPeru();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,7 +68,28 @@ public class FragmentSierraPe extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sierra_pe, container, false);
+       view = inflater.inflate(R.layout.fragment_costa_peru, container, false);
+        pescado = view.findViewById(R.id.btnPescado);
+        pescado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pes = new Intent(CostaPeru.this.getActivity(), Layout_Escabeche.class);
+                startActivity(pes);
+                Toast.makeText(getContext(),"CUIDAD DE PIURA", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        chupe = view.findViewById(R.id.btnChupe);
+        chupe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chu = new Intent(CostaPeru.this.getActivity(), Layout_Chupe.class);
+                startActivity(chu);
+                Toast.makeText(getContext(),"CUIDAD DE PIURA", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        return view;
     }
 }

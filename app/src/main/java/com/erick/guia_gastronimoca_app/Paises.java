@@ -18,16 +18,29 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
 
         ecuador = findViewById(R.id.btnEcuador);
         ecuador.setOnClickListener(this);
+        peru = findViewById(R.id.btnPeru);
+        peru.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
+
         switch (v.getId()){
             case R.id.btnEcuador:
                 Intent ec = new Intent(this,TabPaises.class);
                 startActivity(ec);
-                Toast.makeText(getApplicationContext(),"BIENVENIDOS A ECUADOR",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"BIENVENIDO A ECUADOR",Toast.LENGTH_LONG).show();
                 break;
+
+            case R.id.btnPeru:
+                Intent pe = new Intent(this,TabPeru.class);
+                startActivity(pe);
+                Toast.makeText(getApplicationContext(),"BIENVENIDO A PERU",Toast.LENGTH_LONG).show();
+                break;
+
         }
     }
+
+
 }

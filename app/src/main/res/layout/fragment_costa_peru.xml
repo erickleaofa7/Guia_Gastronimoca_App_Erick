@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ControladorPeru.CostaPeru">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="ESCABECHE DE PESCADO"
+        android:textSize="18sp" >
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnPescado"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/esca2">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="CHUPE DE CAMARONES"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnChupe"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/chepee">
+
+    </ImageButton>
+
+
+</LinearLayout>

@@ -17,14 +17,14 @@
             android:id="@+id/costa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/tabicon"
+            android:icon="@drawable/costa"
             android:text="COSTA" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/sierra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/tabicon"
+            android:icon="@drawable/costa"
             android:text="SIERRA" />
 
 
