@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ControladorVenezuela.CostaVenezuela">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="AREPA RELLENA"
+        android:textSize="18sp" >
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnArepa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arepa3">
+
+    </ImageButton>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="PARGO FRITO PLAYERO"
+        android:textSize="18sp">
+
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnPlayero"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:src="@drawable/pescado">
+
+
+    </ImageButton>
+
+</LinearLayout>
