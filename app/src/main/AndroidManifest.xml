@@ -16,7 +16,6 @@
         <activity android:name=".Peru.Layout_Escabeche" />
         <activity android:name=".Peru.Layout_Llunca" />
         <activity android:name=".Peru.Layout_Juane" />
-        <activity android:name=".Colombia.Tab_Colombia" />
         <activity android:name=".Venezuela.Layout_Arepa" />
         <activity android:name=".Colombia.Layout_BandejaP" />
         <activity android:name=".Ecuador.Layout_Hornado" />
