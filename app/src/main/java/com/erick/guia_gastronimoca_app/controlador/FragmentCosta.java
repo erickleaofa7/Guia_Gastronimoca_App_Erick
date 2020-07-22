@@ -3,6 +3,7 @@ package com.erick.guia_gastronimoca_app.controlador;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.IntentSender;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,7 +11,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.erick.guia_gastronimoca_app.Ecuador.Layout_Ceviche;
@@ -39,6 +42,9 @@ public class FragmentCosta extends Fragment {
 
     View vista;
     ImageButton encebollado, ceviche;
+    TextView texto;
+    Button boton;
+    String direccion;
 
     public FragmentCosta() {
         // Required empty public constructor
@@ -76,6 +82,7 @@ public class FragmentCosta extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         vista =inflater.inflate(R.layout.fragment_costa, container, false);
+        direccion ="";
         encebollado = vista.findViewById(R.id.btnEncebollado);
         encebollado.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,6 +102,30 @@ public class FragmentCosta extends Fragment {
                 Toast.makeText(getContext(),"CUIDAD DE GUAYAQUIL", Toast.LENGTH_LONG).show();
             }
         });
+
+        texto = vista.findViewById(R.id.linkTexto);
+        texto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               direccion ="https://josedanielgw.wordpress.com";
+               Link(direccion);
+            }
+        });
+
+        boton = vista.findViewById(R.id.linkBoton);
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                direccion ="https://www.youtube.com/watch?v=3likyyV1ztU";
+                Link(direccion);
+            }
+        });
         return vista;
+    }
+
+    public void Link(String li){
+        Uri uri = Uri.parse(li);
+        Intent nav = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(nav);
     }
 }
