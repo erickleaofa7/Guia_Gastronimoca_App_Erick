@@ -40,5 +40,24 @@
         android:scaleType="fitStart"
         android:src="@drawable/cev1" />
 
+    <TextView
+        android:id="@+id/linkTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/link"
+        android:gravity="center"
+        android:text="PARA MAS RECETAS INGRESE AQUI" />
+
+    <Button
+        android:id="@+id/linkBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#D81E1E"
+        android:text="YOUTUBE VIDEO"
+        android:textSize="18sp" />
+
 
 </LinearLayout>
