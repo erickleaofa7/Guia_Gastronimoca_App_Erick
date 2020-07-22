@@ -34,15 +34,12 @@ public class TabPeru extends AppCompatActivity {
                     pagerControlerPe.notifyDataSetChanged();
                 }
             }
-
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-
             }
         });
         viewPagerPe.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayoutPe));
