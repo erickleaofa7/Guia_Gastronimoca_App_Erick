@@ -20,6 +20,8 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
         ecuador.setOnClickListener(this);
         peru = findViewById(R.id.btnPeru);
         peru.setOnClickListener(this);
+        colombia = findViewById(R.id.btnColombia);
+        colombia.setOnClickListener(this);
 
     }
 
@@ -38,6 +40,16 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
                 startActivity(pe);
                 Toast.makeText(getApplicationContext(),"BIENVENIDO A PERU",Toast.LENGTH_LONG).show();
                 break;
+            case R.id.btnColombia:
+                Intent co = new Intent(this,Tab_Colombia.class);
+                startActivity(co);
+                Toast.makeText(getApplicationContext(),"BIENVENIDO A COLOMBIA",Toast.LENGTH_LONG).show();
+            case R.id.btnVenezuela:
+                Intent ve = new Intent(this,Tab_Venezuela.class);
+                startActivity(ve);
+                Toast.makeText(getApplicationContext(),"BIENVENIDO A VENEZUELA",Toast.LENGTH_LONG).show();
+
+
 
         }
     }

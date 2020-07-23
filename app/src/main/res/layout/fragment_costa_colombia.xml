@@ -23,7 +23,7 @@
         android:id="@+id/btnBandeja"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@mipmap/Bandeja_Paisa2" />
+        android:src="@mipmap/bandejapaisa2" />
 
     <TextView
         android:id="@+id/textView11"
@@ -38,5 +38,5 @@
         android:id="@+id/btnSancocho"
         android:layout_width="match_parent"
         android:layout_height="238dp"
-        android:src="@drawable/Sancochopeq" />
+        android:src="@drawable/h3" />
 </LinearLayout>
