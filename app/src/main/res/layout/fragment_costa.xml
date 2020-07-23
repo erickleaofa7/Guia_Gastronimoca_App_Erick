@@ -44,18 +44,20 @@
         android:id="@+id/linkTexto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:textSize="18sp"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/link"
         android:gravity="center"
-        android:text="PARA MAS RECETAS INGRESE AQUI" />
+        android:text="PARA MAS RECETAS INGRESE AQUI"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/linkBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:background="#D81E1E"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/boton_border_youtube"
         android:text="YOUTUBE VIDEO"
         android:textSize="18sp" />
 

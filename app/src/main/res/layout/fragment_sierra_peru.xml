@@ -7,41 +7,50 @@
     tools:context=".ControladorPeru.SierraPeru">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20sp"
-        android:gravity="center"
-        android:text="JUANES DE YUCA"
-        android:textSize="18sp" >
-
-    </TextView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:text="JUANES DE YUCA">
+   </TextView>
 
     <ImageButton
-        android:id="@+id/btnJade"
+        android:id="@+id/btnYuca"
         android:layout_width="match_parent"
-        android:layout_height="224dp"
+        android:layout_height="313dp"
+        android:scaleType="fitStart"
         android:src="@drawable/juan2">
 
     </ImageButton>
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="LLUNCA CASHQUI"
-        android:textSize="18sp">
-
+        android:textSize="18sp"
+        android:text="LLUNCA CASHQUI">
     </TextView>
 
     <ImageButton
         android:id="@+id/btnLlunca"
         android:layout_width="match_parent"
-        android:layout_height="224dp"
+        android:layout_height="212dp"
+        android:scaleType="fitStart"
         android:src="@drawable/llucpe">
 
     </ImageButton>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/boton_border_youtube"
+        android:layout_marginTop="20dp"
+        android:text="YOUTUBE VIDEO" />
 
 
 </LinearLayout>

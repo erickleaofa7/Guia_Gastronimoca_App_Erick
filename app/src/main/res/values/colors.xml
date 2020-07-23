@@ -2,5 +2,7 @@
 <resources>
     <color name="colorPrimary">#B0D20B</color>
     <color name="colorPrimaryDark">#B0D20B</color>
-    <color name="colorAccent">#1F6BDF</color>
+    7<color name="colorAccent">#FFBB00</color>
+    <color name="youtube">#CB0000</color>
+    <color name="recetas">#4CB5F5</color>
 </resources>

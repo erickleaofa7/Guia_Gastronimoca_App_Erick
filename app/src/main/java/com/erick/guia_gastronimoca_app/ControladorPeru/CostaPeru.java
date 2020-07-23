@@ -79,7 +79,7 @@ public class CostaPeru extends Fragment {
             }
         });
 
-        chupe = view.findViewById(R.id.btnChupe);
+        chupe = view.findViewById(R.id.btnCamaron);
         chupe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

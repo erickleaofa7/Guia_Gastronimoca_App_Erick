@@ -1,5 +1,6 @@
 package com.erick.guia_gastronimoca_app.ControladorPeru;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,7 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
+import com.erick.guia_gastronimoca_app.Peru.Layout_Llunca;
 import com.erick.guia_gastronimoca_app.R;
 
 /**
@@ -25,6 +29,8 @@ public class SierraPeru extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    View view;
+    ImageButton yuca, llunca;
 
     public SierraPeru() {
         // Required empty public constructor
@@ -61,6 +67,25 @@ public class SierraPeru extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sierra_peru, container, false);
+        view =  inflater.inflate(R.layout.fragment_sierra_peru, container, false);
+        yuca = view.findViewById(R.id.btnYuca);
+        yuca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent yu = new Intent(SierraPeru.this.getActivity(), Layout_Llunca.class);
+                startActivity(yu);
+                Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
+            }
+        });
+        llunca = view.findViewById(R.id.btnLlunca);
+        llunca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent llun = new Intent(SierraPeru.this.getActivity(),Layout_Llunca.class);
+                startActivity(llun);
+                Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
+            }
+        });
+       return view;
     }
 }

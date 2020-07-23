@@ -22,6 +22,9 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
         peru.setOnClickListener(this);
         colombia = findViewById(R.id.btnColombia);
         colombia.setOnClickListener(this);
+        venezuela = findViewById(R.id.btnVenezuela);
+        venezuela.setOnClickListener(this);
+
 
     }
 
