@@ -1,6 +1,7 @@
 package com.erick.guia_gastronimoca_app.controlador;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -34,6 +36,9 @@ public class FragmentSierra extends Fragment {
 
     View view;
     ImageButton yahuarlocro, hornado;
+    Button link;
+    String direc;
+
 
     public FragmentSierra() {
         // Required empty public constructor
@@ -90,6 +95,19 @@ public class FragmentSierra extends Fragment {
                 Toast.makeText(getContext(),"CUIDAD DE QUITO", Toast.LENGTH_LONG).show();
             }
         });
+        link = view.findViewById(R.id.btnLink);
+        link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                direc ="https://www.youtube.com/watch?v=J6HcAtkG4PI";
+                Enlace(direc);
+            }
+        });
         return view;
+    }
+    public void Enlace(String li){
+        Uri uri = Uri.parse(li);
+        Intent nav = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(nav);
     }
 }

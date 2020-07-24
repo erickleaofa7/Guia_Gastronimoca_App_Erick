@@ -23,6 +23,7 @@
         android:id="@+id/btnYahuarlocro"
         android:layout_width="match_parent"
         android:layout_height="245dp"
+        android:scaleType="fitXY"
         android:src="@drawable/yag" />
 
     <TextView
@@ -38,6 +39,18 @@
         android:id="@+id/btnHornado"
         android:layout_width="match_parent"
         android:layout_height="245dp"
+        android:scaleType="fitXY"
         android:src="@drawable/h3" />
+
+    <Button
+        android:id="@+id/btnLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_border_youtube"
+        android:textColor="#FFFFFF"
+        android:text="YOUTUBE VIDEO" />
 
 </LinearLayout>
