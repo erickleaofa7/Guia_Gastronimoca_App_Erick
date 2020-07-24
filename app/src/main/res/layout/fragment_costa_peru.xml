@@ -21,8 +21,8 @@
     <ImageButton
         android:id="@+id/btnPescado"
         android:layout_width="429dp"
-        android:layout_height="299dp"
-        android:scaleType="fitStart"
+        android:layout_height="268dp"
+        android:scaleType="fitXY"
         android:src="@drawable/esca2">
 
     </ImageButton>
@@ -41,18 +41,20 @@
         android:id="@+id/btnCamaron"
         android:layout_width="match_parent"
         android:layout_height="276dp"
-        android:scaleType="fitStart"
+        android:scaleType="fitXY"
         android:src="@drawable/chepee">
 
     </ImageButton>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEnl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/boton_border_youtube"
+        android:textColor="#FFFFFF"
         android:text="YOUTUBE VIDEO" />
 
 

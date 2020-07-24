@@ -19,8 +19,8 @@
     <ImageButton
         android:id="@+id/btnYuca"
         android:layout_width="match_parent"
-        android:layout_height="313dp"
-        android:scaleType="fitStart"
+        android:layout_height="292dp"
+        android:scaleType="fitXY"
         android:src="@drawable/juan2">
 
     </ImageButton>
@@ -36,19 +36,20 @@
     <ImageButton
         android:id="@+id/btnLlunca"
         android:layout_width="match_parent"
-        android:layout_height="212dp"
-        android:scaleType="fitStart"
+        android:layout_height="229dp"
+        android:scaleType="fitXY"
         android:src="@drawable/llucpe">
 
     </ImageButton>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLink1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:background="@drawable/boton_border_youtube"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="20dp"
         android:text="YOUTUBE VIDEO" />
 

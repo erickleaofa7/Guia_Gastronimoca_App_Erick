@@ -1,6 +1,7 @@
 package com.erick.guia_gastronimoca_app.ControladorPeru;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -33,6 +35,8 @@ public class CostaPeru extends Fragment {
 
     View view;
     ImageButton pescado,chupe;
+    Button enla;
+    String direcc;
 
     public CostaPeru() {
         // Required empty public constructor
@@ -89,7 +93,21 @@ public class CostaPeru extends Fragment {
 
             }
         });
+        enla = view.findViewById(R.id.btnEnl);
+        enla.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                direcc ="https://www.youtube.com/watch?v=6S8kj-z_WQ4";
+                Link(direcc);
+            }
+        });
 
         return view;
+    }
+
+    public void Link(String li){
+        Uri uri = Uri.parse(li);
+        Intent nav = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(nav);
     }
 }

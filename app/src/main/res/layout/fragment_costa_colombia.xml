@@ -40,4 +40,15 @@
         android:layout_height="wrap_content"
         android:src="@drawable/sancochop" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/boton_border_youtube"
+        android:textColor="#FFFFFF"
+        android:text="YOUTUBE VIDEO" />
+
 </LinearLayout>
