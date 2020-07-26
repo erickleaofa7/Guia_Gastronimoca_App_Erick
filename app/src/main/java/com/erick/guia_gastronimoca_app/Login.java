@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,11 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -21,14 +27,26 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Login extends AppCompatActivity implements View.OnClickListener {
     private EditText email;
     private EditText password;
     private Button registrar;
     private Button entrar;
 
+
+    // facebook
+    CallbackManager callbackManager;
+   LoginButton loginButton;
+
+    //facebook
+
+
     //declaramos un objeto firebaseAuth
     private FirebaseAuth firebaseAuth;
+    private FirebaseAuth.AuthStateListener firebaseAuthListener;
     private ProgressDialog progressDialog;
 
     @Override
@@ -46,6 +64,35 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         registrar.setOnClickListener(this);
         entrar.setOnClickListener(this);
+
+        //facebbok
+
+        callbackManager = CallbackManager.Factory.create();
+        loginButton = findViewById(R.id.login_button);
+        loginButton.setReadPermissions(Arrays.asList("email"));
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+
+            }
+
+            @Override
+            public void onCancel() {
+             Toast.makeText(getApplicationContext(),"se cancelo la operacion", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+                Toast.makeText(getApplicationContext(),"error al ingresar", Toast.LENGTH_LONG).show();
+            }
+        });
+         firebaseAuth = FirebaseAuth.getInstance();
+         firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
+             @Override
+             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+
+             }
+         };
 
     }
     private  void registrarUsuario(){
@@ -126,6 +173,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
          }
       }
+
+
 
 
 

@@ -3,9 +3,10 @@
     <string name="usuario">ingrese un usuario</string>
     <string name="password">ingrese una contraseña</string>
     <string name="btn_registro">REGISTRAR USUARIO</string>
-    <string name="entrar">INICIAR CESION</string>
+    <string name="entrar">INICIAR SESION</string>
     <string name="title_activity_paises">ScrollingActivity</string>
     <string name="large_text">
+
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -94,6 +95,7 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
     <string name="action_settings">Settings</string>
     <string name="ecuador">ECUADOR</string>
     <string name="peru">PERU</string>
@@ -107,4 +109,9 @@
     <string name="receta">RECETA</string>
     <string name="concejo_de_cocina">Concejo de cocina</string>
     <string name="consejo_de_cocina">Consejo de cocina</string>
+    <string name="facebook_app_id">725784844654168</string>
+    <string name="fb_login_protocol_scheme">fb725784844654168</string>
+
+
+
 </resources>
