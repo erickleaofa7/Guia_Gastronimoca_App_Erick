@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.erick.guia_gastronimoca_app.Colombia.Layout_BandejaP;
 import com.erick.guia_gastronimoca_app.Colombia.Layout_Sancocho;
+import com.erick.guia_gastronimoca_app.Paises;
 import com.erick.guia_gastronimoca_app.R;
 
 /**
@@ -32,7 +33,7 @@ public class costaColombia extends Fragment {
     private String mParam2;
 
     View vista;
-    ImageButton bandeja, sancocho;
+    ImageButton bandeja, sancocho, atras;
 
     public costaColombia() {
         // Required empty public constructor
@@ -86,6 +87,15 @@ public class costaColombia extends Fragment {
                 Intent san = new Intent(costaColombia.this.getActivity(), Layout_Sancocho.class);
                 startActivity(san);
                 Toast.makeText(getContext(), "CIUDAD DE BARRANQUILLA", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        atras = vista.findViewById(R.id.btnAtras);
+        atras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent atr = new Intent(costaColombia.this.getActivity(), Paises.class);
+                startActivity(atr);
             }
         });
         return vista;

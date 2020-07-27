@@ -22,7 +22,7 @@
     <ImageButton
         android:id="@+id/btnYahuarlocro"
         android:layout_width="match_parent"
-        android:layout_height="245dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
         android:src="@drawable/yag" />
 
@@ -38,7 +38,7 @@
     <ImageButton
         android:id="@+id/btnHornado"
         android:layout_width="match_parent"
-        android:layout_height="245dp"
+        android:layout_height="282dp"
         android:scaleType="fitXY"
         android:src="@drawable/h3" />
 

@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="194dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         app:srcCompat="@drawable/logo" />
 
     <EditText
@@ -22,6 +22,8 @@
         android:drawableStart="@drawable/email"
         android:ems="10"
         android:hint="ingrese su e-mail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -31,15 +33,20 @@
         android:drawableStart="@drawable/passward"
         android:ems="10"
         android:hint="@string/password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/boton_color_border"
         android:text="@string/btn_registro"
+        android:textColor="#B0D20B"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -47,10 +54,25 @@
         android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/boton_color"
         android:text="@string/entrar"
+        android:textColor="#FBFBFB"
         android:textColorLink="#FFB74D"
+        android:textSize="20dp"
         android:textStyle="bold" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="30dp" />
+
 
 </LinearLayout>

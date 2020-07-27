@@ -1,6 +1,7 @@
 package com.erick.guia_gastronimoca_app.ControladorPeru;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -31,6 +33,8 @@ public class SierraPeru extends Fragment {
     private String mParam2;
     View view;
     ImageButton yuca, llunca;
+    Button link;
+    String direccion;
 
     public SierraPeru() {
         // Required empty public constructor
@@ -86,6 +90,21 @@ public class SierraPeru extends Fragment {
                 Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
             }
         });
+
+        link = view.findViewById(R.id.btnLink1);
+        link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                direccion ="https://www.youtube.com/watch?v=a8cLrs0FFxo";
+                Link(direccion);
+            }
+        });
+
        return view;
+    }
+    public void Link(String li){
+        Uri uri = Uri.parse(li);
+        Intent nav = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(nav);
     }
 }
