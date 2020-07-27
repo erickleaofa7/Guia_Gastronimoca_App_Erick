@@ -5,11 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.facebook.login.LoginManager;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class Paises extends AppCompatActivity implements View.OnClickListener {
     ImageButton ecuador,peru,colombia,chile,venezuela;
+    EditText usuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +31,14 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
         venezuela = findViewById(R.id.btnVenezuela);
         venezuela.setOnClickListener(this);
 
+        //usuario conectado facebook
+        usuario = findViewById(R.id.edtUsuario);
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user!=null){
+            String name = user.getDisplayName();
+            usuario.setText(name);
+        }
 
     }
 
@@ -55,6 +69,20 @@ public class Paises extends AppCompatActivity implements View.OnClickListener {
 
 
         }
+    }
+
+    //cerrar sesion facebook
+
+
+    public void ActividaLogin(){
+        Intent log = new Intent(Paises.this.getApplicationContext(),Login.class);
+        log.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(log);
+    }
+    public  void sesion(View view){
+        FirebaseAuth.getInstance().signOut();
+        LoginManager.getInstance().logOut();
+        ActividaLogin();
     }
 
 

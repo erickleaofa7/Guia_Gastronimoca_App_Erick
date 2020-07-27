@@ -23,7 +23,7 @@
         android:layout_width="429dp"
         android:layout_height="268dp"
         android:scaleType="fitXY"
-        android:src="@drawable/esca2">
+        android:src="@drawable/pes">
 
     </ImageButton>
 

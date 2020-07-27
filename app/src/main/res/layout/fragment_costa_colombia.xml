@@ -51,4 +51,10 @@
         android:textColor="#FFFFFF"
         android:text="YOUTUBE VIDEO" />
 
+    <ImageButton
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_full_open_on_phone" />
+
 </LinearLayout>
