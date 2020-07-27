@@ -15,101 +15,111 @@ public class Layout_BandejaP extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout__bandeja_p);
 
-        text = findViewById(R.id.txtEncevollado);
+        text = findViewById(R.id.txtBandejaP);
 
-        String inf = "            1. dos libras de albacora  "
+        String inf =
+                "            1. tres unidades de tomates  "
                 + System.getProperty("line.separator") +
-                "            2. libra y media de yuca    "
+                "            2. cuatro huevos   "
                 + System.getProperty("line.separator") +
-                "            3. dos cebollas en rama    "
+                "            3. 200 gramos de cebolla cabezona  "
                 + System.getProperty("line.separator") +
-                "            4. tres diente de ajo    "
+                "            4. Un diente de ajo    "
                 + System.getProperty("line.separator") +
-                "            5. un comino    "
+                "            5. dos aguacates   "
                 + System.getProperty("line.separator") +
-                "            6. pimienta   "
+                "            6. cuatro chorizos  "
                 + System.getProperty("line.separator") +
-                "            7. aji peruano    "
+                "            7. una pisca de comino   "
                 + System.getProperty("line.separator") +
-                "            8. cilantro en rama    "
+                "            8. una libra de frijol cargamanto  "
                 + System.getProperty("line.separator") +
-                "            9. cilantro picado    "
+                "            9. dos platanos maduros  "
                 + System.getProperty("line.separator") +
-                "            10. salsa de cebollas    "
+                "            10. una libra de arroz    "
                 + System.getProperty("line.separator") +
                 "            11. aceite    "
                 + System.getProperty("line.separator") +
-                "            12. limom    "
+                "            12. una libra de chicharon   "
                 + System.getProperty("line.separator") +
-                "            13. sal    ";
+                "            13. cuatro arepas de maiz   "
+                + System.getProperty("line.separator") +
+                "            14. 350 gramos de carne picada de ternera  ";
         text.setText(inf);
 
         text1 = findViewById(R.id.txtPreparacion);
 
-        String prep = "   1.  En una olla onda se pone a hervir el albacora  "
+        String prep =
+                "   1.  El dia anterior dejar reposar en un recipiente "
                 + System.getProperty("line.separator") +
-                "       el trozo entero, si se consigue comprar la    "
+                "       con agua fria los frijoles    "
+                + System.getProperty("line.separator")
+                + System.getProperty("line.separator")+
+                "   2.  Para preparar el arroz agregamos 2 tazas de arroz  "
                 + System.getProperty("line.separator") +
-                "       cabeza tambien y se la pone a hervir con suficiente   "
+                "       y el doble de agua, es decir, 4 tazas de agua. "
                 + System.getProperty("line.separator") +
-                "       agua que tape los trozos de pescado, calculando seis   "
+                "       Cuando el agua hierva añadir el arroz y la hoja  "
                 + System.getProperty("line.separator") +
-                "       platos hondos, se aliña con el ajo entero, las ramas   "
+                "       de laurel. Cocinar a fuego medio durante 15 minutos. "
                 + System.getProperty("line.separator") +
-                "       de cebolla blanca, comino, pimienta al gusto.   "
+                "       Apagar el fuego y dejar reposar por 5 min tapado. "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   2.  Cuando el albacora este cocinada se saca del caldo   "
+                "   3.  Para los platanos vamos a preparar una sarten con   "
                 + System.getProperty("line.separator") +
-                "       y se reserva, se cierne el caldo.   "
+                "       aceite. Sacar tajadas a los platanos y freir hasta   "
+                + System.getProperty("line.separator") +
+                "       que esten dorados, luego dejar reposar en un plato   "
+                + System.getProperty("line.separator") +
+                "       con papel absorbente o de cocina.   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   3.  En el mismo caldo se pone a cocinar la yuca en trozos   "
+                "   4.  Procedemos a preparar el hogao. Corta la cebolla y  "
                 + System.getProperty("line.separator") +
-                "       grandes, y cuando esta blanda se saca del caldo.   "
+                "       y el tomate en dados, picar el ajo en trocitos muy   "
+                + System.getProperty("line.separator") +
+                "       pequeños. Sofreir la cebolla en aceite durante 4 min.  "
+                + System.getProperty("line.separator") +
+                "       sazonar con sal y agregar el tomate, incorporar el  "
+                + System.getProperty("line.separator") +
+                "       ajo y el comino, mezclar bien y cocinar por 2 minutos.  "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   4.  En una taza se deshace las 2 cucharadas de aji peruano  "
+                "   5.  Escurrir los frijoles y llevarlos a la olla de presion,  "
                 + System.getProperty("line.separator") +
-                "       se cierne y se añade al caldo de pescado, se deja   "
+                "       añadir el hogao. Cubre con agua y dejar cocinar por   "
                 + System.getProperty("line.separator") +
-                "       hervir unos diez minutos aproximadamente.   "
-                + System.getProperty("line.separator")
-                + System.getProperty("line.separator") +
-                "   5.  Se agrega el cilantro entero y se de hervir 5 minutos  "
-                + System.getProperty("line.separator") +
-                "       se salpimienta y se retira del fuego   "
+                "       30 minutos aproximadamente.   "
                 + System.getProperty("line.separar")
                 + System.getProperty("line.separator") +
-                "   6.  La albacora es un pescado en que su carne una vez   "
+                "   6.  En una sarten cocinar la carne y el chorizo hasta que  "
                 + System.getProperty("line.separator") +
-                "       cocinada se puede deshojar   "
+                "       esten bien dorados. Luego retirar y en la misma sarten  "
+                + System.getProperty("line.separator") +
+                "       freir los huevos. En otra sarten fritar los chicharrones. "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   7.  Se corta en cuadritos la yuca y se acomoda en un   "
+                "   7.  Para montar la bandeja paisa, colocamos el arroz los   "
                 + System.getProperty("line.separator") +
-                "       plato hondo de sopa, sobre el una porcion de albacora   "
+                "       frijoles, las tajadas, la carne picada, el chorizo   "
                 + System.getProperty("line.separator") +
-                "       deshojada, se le agrega una taza y media de caldo de   "
+                "       los chicharrones y el huevo (arriba del arroz). Cortar   "
                 + System.getProperty("line.separator") +
-                "       pescado, luego una porcion de salsa de cebolla, se   "
+                "       el aguacate y adicionar las arepas de maiz."
                 + System.getProperty("line.separator") +
-                "       espolvorea cilantro, una cucharada de aceite, se    "
-                + System.getProperty("line.separator") +
-                "       acompaña de medio limon para que el comensal lo exprima   "
-                + System.getProperty("line.separator") +
-                "       al gusto sobre el encebollado   ";
+                "       Y ¡ listo a disfrutar!  ";
+
         text1.setText(prep);
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Inclusive los vegetarianos lo pueden degustar "
                 + System.getProperty("line.separator") +
-                "   Chifles   "
+                "   basta con retirar la carne y el chorizo    "
                 + System.getProperty("line.separator") +
-                "   Maiz tostado    "
-                + System.getProperty("line.separator") +
-                "   Pan, aji   ";
+                "   podren servirse un plata tradicional de Colombia.";
 
         text2.setText(con);
     }
