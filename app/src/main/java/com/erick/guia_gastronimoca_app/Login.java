@@ -119,7 +119,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     //Inicio de sesion en facebook
     private void inicioFace(){
-        Intent fac = new Intent(Login.this.getApplicationContext(),Paises.class);
+        Intent fac = new Intent(Login.this,Paises.class);
         fac.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(fac);
     }
