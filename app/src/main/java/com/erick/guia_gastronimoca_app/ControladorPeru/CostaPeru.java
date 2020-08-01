@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.erick.guia_gastronimoca_app.Peru.Layout_Chupe;
@@ -37,6 +38,7 @@ public class CostaPeru extends Fragment {
     ImageButton pescado,chupe;
     Button enla;
     String direcc;
+    TextView texto;
 
     public CostaPeru() {
         // Required empty public constructor
@@ -93,6 +95,16 @@ public class CostaPeru extends Fragment {
 
             }
         });
+
+        texto = view.findViewById(R.id.linkTexto);
+        texto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                direcc="https://www.excelenciasgourmet.com/es/opinion-news/gastronomia-peruana-una-de-las-mas-diversas-del-mundo";
+                Link(direcc);
+            }
+        });
+
         enla = view.findViewById(R.id.btnEnl);
         enla.setOnClickListener(new View.OnClickListener() {
             @Override

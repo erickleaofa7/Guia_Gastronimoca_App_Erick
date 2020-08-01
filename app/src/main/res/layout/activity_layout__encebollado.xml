@@ -99,7 +99,8 @@
                 android:id="@+id/imgFoto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/arepa3" />
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/bollado" />
 
         </LinearLayout>
 

@@ -16,33 +16,38 @@ public class Layout_Chupe extends AppCompatActivity {
         text = findViewById(R.id.txtEncevollado);
 
         String inf =
-                "            1. Un kilo de yuca  "
+                "                    1. Un kilo de camarones  "
                         + System.getProperty("line.separator") +
-                        "            2. Un paiche    "
+                        "            2. Media taza de arroz"
                         + System.getProperty("line.separator") +
-                        "            3. Porciones de carne de cerdo,gallina "
+                        "            3. Medio kilo de patata pelada "
                         + System.getProperty("line.separator") +
-                        "            4. 1/8 de taza de culantro licuado"
+                        "            4. Una taza de guisantes"
                         + System.getProperty("line.separator") +
-                        "            5. 50 gramos de manteca"
+                        "            5. Una lata de leche evaporada"
                         + System.getProperty("line.separator") +
-                        "            6. Una cebolla picada"
+                        "            6. Una cucharada de aji molido"
                         + System.getProperty("line.separator") +
-                        "            7. Doce hojas de bijao"
+                        "            7. Una cucharada de ajo picado"
                         + System.getProperty("line.separator") +
-                        "            8. Una cucharada de ajos"
+                        "            8. Una cebolla morada"
                         + System.getProperty("line.separator") +
-                        "            9. Sal,pimienta y comino al gusto"
-                        + System.getProperty("line.separator");
+                        "            9. Un calamar de rodajas"
+                        + System.getProperty("line.separator")+
+                        "            10. Dos huevos batidos por plato"
+                        + System.getProperty("line.separator")+
+                        "            11. Queso fresco"
+                        + System.getProperty("line.separator")+
+                        "            11. Sal, pimienta, oregano";
 
         text.setText(inf);
 
         text1 = findViewById(R.id.txtPreparacion);
 
         String prep =
-                        "   1.  Remoja el paiche de un día para otro,"
+                        "   1.  Precionar la cabeza de los camarones y,"
                         + System.getProperty("line.separator") +
-                        "       despues escurrelo y cocínalo en agua"
+                        "       guardar el liquido obtenido"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
                         "   2.  Una vez listo córtalo en seis porciones "
@@ -77,14 +82,14 @@ public class Layout_Chupe extends AppCompatActivity {
                         + System.getProperty("line.separator") +
                         "       sobre ellos una porción de masa de"
                         + System.getProperty("line.separator") +
-                        "       yuca y en el centro de esta un pedazo"
+                        "       Incorporar el calamar, el arroz y los"
                         + System.getProperty("line.separator") +
-                        "       de pescado, envuélvelo y átalo."
+                        "       guisantes."
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   9.  Pon todos los juanes en una olla con agua"
+                        "   9.  Cocinar durante dos minutos, agregar los"
                         + System.getProperty("line.separator") +
-                        "       hirviendo y cocínalos durante 30 minutos";
+                        "       huevos batidos y el queso fresco";
 
         text1.setText(prep);
 

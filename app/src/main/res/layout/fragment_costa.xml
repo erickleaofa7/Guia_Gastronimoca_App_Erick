@@ -20,7 +20,7 @@
     <ImageButton
         android:id="@+id/btnEncebollado"
         android:layout_width="match_parent"
-        android:layout_height="245dp"
+        android:layout_height="242dp"
         android:scaleType="fitStart"
         android:src="@drawable/encebollado" />
 

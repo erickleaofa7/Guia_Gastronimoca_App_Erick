@@ -45,6 +45,15 @@
         android:src="@drawable/chepee">
 
     </ImageButton>
+    <TextView
+        android:id="@+id/linkTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/link"
+        android:gravity="center"
+        android:text="PARA MAS RECETAS INGRESE AQUI"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnEnl"

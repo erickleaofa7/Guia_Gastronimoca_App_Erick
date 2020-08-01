@@ -16,23 +16,25 @@ public class Layout_Llunca extends AppCompatActivity {
         text = findViewById(R.id.txtEncevollado);
 
         String inf =
-                        "            1. Un kilo de yuca  "
+                        "            1. Una Gallina de corral  "
                         + System.getProperty("line.separator") +
-                        "            2. Un paiche    "
+                        "            2. Un cuarto de trigo resbalado"
                         + System.getProperty("line.separator") +
-                        "            3. Porciones de carne de cerdo,gallina "
+                        "            3. Una cebolla china picada "
                         + System.getProperty("line.separator") +
-                        "            4. 1/8 de taza de culantro licuado"
+                        "            4. Una zanahoria picada de 2cm"
                         + System.getProperty("line.separator") +
-                        "            5. 50 gramos de manteca"
+                        "            5. Tres litros de agua"
                         + System.getProperty("line.separator") +
-                        "            6. Una cebolla picada"
+                        "            6. Una rama de apio"
                         + System.getProperty("line.separator") +
-                        "            7. Doce hojas de bijao"
+                        "            7. Una rama de perejil picado"
                         + System.getProperty("line.separator") +
-                        "            8. Una cucharada de ajos"
+                        "            8. Una cucharada de oregano"
                         + System.getProperty("line.separator") +
-                        "            9. Sal,pimienta y comino al gusto"
+                        "            9. Ajo molido"
+                        + System.getProperty("line.separator")+
+                        "            10. Cuatro cucharadas de aji "
                         + System.getProperty("line.separator");
 
         text.setText(inf);
@@ -40,9 +42,9 @@ public class Layout_Llunca extends AppCompatActivity {
         text1 = findViewById(R.id.txtPreparacion);
 
         String prep =
-                        "   1.  Remoja el paiche de un día para otro,"
+                        "   1.  En una olla de barro, ponga los"
                         + System.getProperty("line.separator") +
-                        "       despues escurrelo y cocínalo en agua"
+                        "       tres litros de agua"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
                         "   2.  Una vez listo córtalo en seis porciones "
@@ -71,20 +73,20 @@ public class Layout_Llunca extends AppCompatActivity {
                         "       espese"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   8.  Por cada juane coloca dos hojas de bijao"
+                        "   8.  Una vez cocidos la gallina y el trigo"
                         + System.getProperty("line.separator") +
-                        "       previamente soasadas, en forma de cruz"
+                        "       quite la rama de apio, y echele el"
                         + System.getProperty("line.separator") +
-                        "       sobre ellos una porción de masa de"
+                        "       oregano y siga cocinando a fuego lento"
                         + System.getProperty("line.separator") +
-                        "       yuca y en el centro de esta un pedazo"
+                        "       En otra olla de barro, prepare un"
                         + System.getProperty("line.separator") +
-                        "       de pescado, envuélvelo y átalo."
+                        "       aderezo, los ajos y la cebolla"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   9.  Pon todos los juanes en una olla con agua"
+                        "   9.  Por ultimo agregar el perejil finamente"
                         + System.getProperty("line.separator") +
-                        "       hirviendo y cocínalos durante 30 minutos";
+                        "       picado y en 3 minutos estara listo";
 
         text1.setText(prep);
 
@@ -92,7 +94,7 @@ public class Layout_Llunca extends AppCompatActivity {
 
         String con =      "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Salsa de cebolla   "
+                "   Arroz   "
                 + System.getProperty("line.separator") +
                 "   Aji de cocona   ";
 
