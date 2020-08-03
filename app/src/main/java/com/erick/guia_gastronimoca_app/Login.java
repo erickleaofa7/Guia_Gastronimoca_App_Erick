@@ -80,6 +80,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             public void onSuccess(LoginResult loginResult) {
 
                 handleFacebookAccesToken(loginResult.getAccessToken());
+                inicioFace();
             }
 
             @Override
