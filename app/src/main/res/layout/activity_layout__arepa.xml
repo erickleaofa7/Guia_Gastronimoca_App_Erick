@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Venezuela.Layout_Arepa">
 
     <ScrollView
@@ -86,6 +86,12 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="" />
+            <ImageButton
+                android:id="@+id/btnCamara15"
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/cam" />
 
         </LinearLayout>
 

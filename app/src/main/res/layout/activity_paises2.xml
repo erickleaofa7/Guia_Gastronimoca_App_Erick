@@ -40,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/ecuador"
+                android:background="@drawable/bordes_textview"
                 android:textAlignment="center" />
 
             <ImageButton
@@ -53,6 +54,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/bordes_textview"
                 android:text="@string/peru"
                 android:textAlignment="center" />
 
@@ -67,6 +69,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/bordes_textview"
                 android:text="@string/colombia"
                 android:textAlignment="center" />
 
@@ -82,6 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/chile"
+                android:background="@drawable/bordes_textview"
                 android:textAlignment="center" />
 
             <ImageButton
@@ -96,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/venezuela"
+                android:background="@drawable/bordes_textview"
                 android:textAlignment="center" />
 
             <ImageButton
