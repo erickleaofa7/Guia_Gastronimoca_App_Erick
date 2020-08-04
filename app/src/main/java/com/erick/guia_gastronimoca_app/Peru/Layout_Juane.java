@@ -52,19 +52,19 @@ public class Layout_Juane extends AppCompatActivity {
                 "   3.  Aparte pela y ralla las yucas"
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   4.   En un paño limpio y escúrrelo todo el jugo "
+                "   4.  En un paño limpio y escúrrelo todo el jugo "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   5.   En una olla calienta la manteca y frie la"
+                "   5.  En una olla calienta la manteca y frie la"
                 + System.getProperty("line.separator") +
-                "        cebolla,ajo y sazona con sal,comino y pimienta"
+                "       cebolla,ajo y sazona con sal,comino y pimienta"
                 + System.getProperty("line.separar")
                 + System.getProperty("line.separator") +
-                "   6.   Una vez dorado agrega el culantro y fríe hasta"
+                "   6.  Una vez dorado agrega el culantro y fríe hasta"
                 + System.getProperty("line.separator") +
-                "        se seque un poco la yuca y cocina removiendo"
+                "       se seque un poco la yuca y cocina removiendo"
                 + System.getProperty("line.separator") +
-                "        hasta que espese."
+                "       hasta que espese."
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
                 "   7.  Luego la yuca y cocina removiendo hasta que"
@@ -91,11 +91,12 @@ public class Layout_Juane extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Salsa de cebolla   "
+                "   * Salsa de cebolla   "
                 + System.getProperty("line.separator") +
-                "   Aji de cocona   ";
+                "   * Aji de cocona   ";
 
         text2.setText(con);
     }

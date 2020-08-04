@@ -105,13 +105,14 @@ public class Layout_Sancocho extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Chifles   "
+                "   * Chifles   "
                 + System.getProperty("line.separator") +
-                "   Maiz tostado    "
+                "   * Maiz tostado    "
                 + System.getProperty("line.separator") +
-                "   Pan, aji   ";
+                "   * Pan, aji   ";
 
         text2.setText(con);
     }

@@ -42,15 +42,15 @@ public class Layout_Llunca extends AppCompatActivity {
         text1 = findViewById(R.id.txtPreparacion);
 
         String prep =
-                        "   1.  En una olla de barro, ponga los"
+                        "   1.   En una olla de barro, ponga los"
                         + System.getProperty("line.separator") +
-                        "       tres litros de agua"
+                        "        tres litros de agua"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   2.  Una vez listo córtalo en seis porciones "
+                        "   2.   Una vez listo córtalo en seis porciones "
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   3.  Aparte pela y ralla las yucas"
+                        "   3.   Aparte pela y ralla las yucas"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
                         "   4.   En un paño limpio y escúrrelo todo el jugo "
@@ -68,35 +68,36 @@ public class Layout_Llunca extends AppCompatActivity {
                         "        hasta que espese."
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   7.  Luego la yuca y cocina removiendo hasta que"
+                        "   7.   Luego la yuca y cocina removiendo hasta que"
                         + System.getProperty("line.separator") +
-                        "       espese"
+                        "        espese"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   8.  Una vez cocidos la gallina y el trigo"
+                        "   8.   Una vez cocidos la gallina y el trigo"
                         + System.getProperty("line.separator") +
-                        "       quite la rama de apio, y echele el"
+                        "        quite la rama de apio, y echele el"
                         + System.getProperty("line.separator") +
-                        "       oregano y siga cocinando a fuego lento"
+                        "        oregano y siga cocinando a fuego lento"
                         + System.getProperty("line.separator") +
-                        "       En otra olla de barro, prepare un"
+                        "        En otra olla de barro, prepare un"
                         + System.getProperty("line.separator") +
-                        "       aderezo, los ajos y la cebolla"
+                        "        aderezo, los ajos y la cebolla"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   9.  Por ultimo agregar el perejil finamente"
+                        "   9.   Por ultimo agregar el perejil finamente"
                         + System.getProperty("line.separator") +
-                        "       picado y en 3 minutos estara listo";
+                        "        picado y en 3 minutos estara listo";
 
         text1.setText(prep);
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Arroz   "
+                "   * Arroz   "
                 + System.getProperty("line.separator") +
-                "   Aji de cocona   ";
+                "   * Aji de cocona   ";
 
         text2.setText(con);
     }

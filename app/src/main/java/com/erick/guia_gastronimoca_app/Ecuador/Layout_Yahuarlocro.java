@@ -118,13 +118,14 @@ public class Layout_Yahuarlocro extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Aguacate   "
+                "   * Aguacate   "
                 + System.getProperty("line.separator") +
-                "   Sangre   "
+                "   * Sangre   "
                 + System.getProperty("line.separator") +
-                "   Cebolla, limon   ";
+                "   * Cebolla, limon   ";
 
         text2.setText(con);
     }

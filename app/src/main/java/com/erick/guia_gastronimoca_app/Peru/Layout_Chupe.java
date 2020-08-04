@@ -16,7 +16,7 @@ public class Layout_Chupe extends AppCompatActivity {
         text = findViewById(R.id.txtEncevollado);
 
         String inf =
-                "                    1. Un kilo de camarones  "
+                        "            1. Un kilo de camarones  "
                         + System.getProperty("line.separator") +
                         "            2. Media taza de arroz"
                         + System.getProperty("line.separator") +
@@ -95,11 +95,12 @@ public class Layout_Chupe extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Salsa de cebolla   "
+                "   * Salsa de cebolla   "
                 + System.getProperty("line.separator") +
-                "   Aji de cocona   ";
+                "   * Aji de cocona   ";
 
         text2.setText(con);
     }

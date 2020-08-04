@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="30dp"
-                android:background="@color/recetas"
+                android:background="#B3C100"
                 android:gravity="center"
                 android:drawableStart="@drawable/consejo"
                 android:text="@string/consejo_de_cocina"

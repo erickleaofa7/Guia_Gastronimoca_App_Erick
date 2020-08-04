@@ -46,7 +46,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/boton_color_border"
         android:text="@string/btn_registro"
-        android:textColor="#B0D20B"
+        android:textColor="#4CB5F5"
         android:textSize="18sp"
         android:textStyle="bold" />
 

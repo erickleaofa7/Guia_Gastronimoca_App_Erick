@@ -65,11 +65,11 @@ public class Layout_Ceviche extends AppCompatActivity {
         String con =
                 "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Chifles   "
+                "   * Chifles   "
                 + System.getProperty("line.separator") +
-                "   Patacones o tostones    "
+                "   * Patacones o tostones    "
                 + System.getProperty("line.separator") +
-                "   Canguil   ";
+                "   * Canguil   ";
 
         text2.setText(con);
     }

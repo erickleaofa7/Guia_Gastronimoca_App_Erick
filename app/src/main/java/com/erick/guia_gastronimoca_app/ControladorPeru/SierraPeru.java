@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.erick.guia_gastronimoca_app.Peru.Layout_Juane;
 import com.erick.guia_gastronimoca_app.Peru.Layout_Llunca;
 import com.erick.guia_gastronimoca_app.R;
 
@@ -76,7 +77,7 @@ public class SierraPeru extends Fragment {
         yuca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent yu = new Intent(SierraPeru.this.getActivity(), Layout_Llunca.class);
+                Intent yu = new Intent(SierraPeru.this.getActivity(), Layout_Juane.class);
                 startActivity(yu);
                 Toast.makeText(getContext(),"CUIDAD DE LIMA", Toast.LENGTH_LONG).show();
             }

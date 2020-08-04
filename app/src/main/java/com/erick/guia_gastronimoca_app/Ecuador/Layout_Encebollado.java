@@ -149,11 +149,11 @@ public class Layout_Encebollado extends AppCompatActivity {
 
        String con =      "   Se puede acompañar con: "
                              + System.getProperty("line.separator") +
-                         "   Chifles   "
+                         "   * Chifles   "
                              + System.getProperty("line.separator") +
-                         "   Maiz tostado    "
+                         "   * Maiz tostado    "
                              + System.getProperty("line.separator") +
-                         "   Pan, aji   ";
+                         "   * Pan, aji   ";
 
        text2.setText(con);
     }

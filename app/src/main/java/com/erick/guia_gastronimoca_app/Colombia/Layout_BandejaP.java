@@ -115,7 +115,7 @@ public class Layout_BandejaP extends AppCompatActivity {
         text2 = findViewById(R.id.txtConsejo);
 
         String con =
-                "   Inclusive los vegetarianos lo pueden degustar "
+                "   *Inclusive los vegetarianos lo pueden degustar "
                 + System.getProperty("line.separator") +
                 "   basta con retirar la carne y el chorizo    "
                 + System.getProperty("line.separator") +
