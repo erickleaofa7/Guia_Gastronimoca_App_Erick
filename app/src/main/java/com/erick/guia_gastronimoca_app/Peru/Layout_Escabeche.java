@@ -16,23 +16,23 @@ public class Layout_Escabeche extends AppCompatActivity {
         text = findViewById(R.id.txtEncevollado);
 
         String inf =
-                        "            1. Un kilo de yuca  "
+                        "            1. Seis filetes de pescado  "
                         + System.getProperty("line.separator") +
-                        "            2. Un paiche    "
+                        "            2. Dos cebollas grandes    "
                         + System.getProperty("line.separator") +
-                        "            3. Porciones de carne de cerdo,gallina "
+                        "            3. Tres huevos duros "
                         + System.getProperty("line.separator") +
-                        "            4. 1/8 de taza de culantro licuado"
+                        "            4. Harina en cantidad necesaria"
                         + System.getProperty("line.separator") +
-                        "            5. 50 gramos de manteca"
+                        "            5. Media taza de aceite"
                         + System.getProperty("line.separator") +
-                        "            6. Una cebolla picada"
+                        "            6. Media taza de vinagre"
                         + System.getProperty("line.separator") +
-                        "            7. Doce hojas de bijao"
+                        "            7. Media cucharada de comino molido"
                         + System.getProperty("line.separator") +
-                        "            8. Una cucharada de ajos"
+                        "            8. Media cucharada de pimienta molida"
                         + System.getProperty("line.separator") +
-                        "            9. Sal,pimienta y comino al gusto"
+                        "            9. Seis hojas de lechuga"
                         + System.getProperty("line.separator");
 
         text.setText(inf);
@@ -40,30 +40,30 @@ public class Layout_Escabeche extends AppCompatActivity {
         text1 = findViewById(R.id.txtPreparacion);
 
         String prep =
-                        "   1.  Remoja el paiche de un día para otro,"
+                        "   1.  Sazonar los filetes de pescado con,"
                         + System.getProperty("line.separator") +
-                        "       despues escurrelo y cocínalo en agua"
+                        "       sal y pimienta, pasarlos por harina"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   2.  Una vez listo córtalo en seis porciones "
+                        "   2.  Colocar en una fuente adornada con hojas  "
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   3.  Aparte pela y ralla las yucas"
+                        "   3.  Freir las cebollas en cuatro partes"
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   4.   En un paño limpio y escúrrelo todo el jugo "
+                        "   4.  Agregar el vinagre cuando ya la cebolla "
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
-                        "   5.   En una olla calienta la manteca y frie la"
+                        "   5.  En una olla calienta la manteca y frie la"
                         + System.getProperty("line.separator") +
-                        "        cebolla,ajo y sazona con sal,comino y pimienta"
+                        "       cebolla,ajo y sazona con sal,comino y pimienta"
                         + System.getProperty("line.separar")
                         + System.getProperty("line.separator") +
-                        "   6.   Una vez dorado agrega el culantro y fríe hasta"
+                        "   6.  Una vez dorado agrega el culantro y fríe hasta"
                         + System.getProperty("line.separator") +
-                        "        se seque un poco la yuca y cocina removiendo"
+                        "       se seque un poco la yuca y cocina removiendo"
                         + System.getProperty("line.separator") +
-                        "        hasta que espese."
+                        "       hasta que espese."
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
                         "   7.  Luego la yuca y cocina removiendo hasta que"
@@ -90,11 +90,12 @@ public class Layout_Escabeche extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Salsa de cebolla   "
+                "   * Salsa de cebolla   "
                 + System.getProperty("line.separator") +
-                "   Aji de cocona   ";
+                "   * Aji de cocona   ";
 
         text2.setText(con);
     }

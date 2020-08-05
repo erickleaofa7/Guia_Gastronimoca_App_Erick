@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Ecuador.Layout_Ceviche">
 
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="30dp"
-                android:background="@color/recetas"
+                android:background="#B3C100"
                 android:gravity="center"
                 android:drawableStart="@drawable/consejo"
                 android:text="@string/consejo_de_cocina"
@@ -87,6 +87,12 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="" />
+            <ImageButton
+                android:id="@+id/btnCamara4"
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/cam" />
 
         </LinearLayout>
 

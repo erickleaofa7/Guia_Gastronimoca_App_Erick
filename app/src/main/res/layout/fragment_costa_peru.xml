@@ -45,6 +45,16 @@
         android:src="@drawable/chepee">
 
     </ImageButton>
+    <TextView
+        android:id="@+id/linkTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/link"
+        android:gravity="center"
+        android:text="PARA MAS RECETAS INGRESE AQUI"
+        android:background="@drawable/bordes_textview"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnEnl"
@@ -52,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/boton_border_youtube"
         android:textColor="#FFFFFF"
         android:text="YOUTUBE VIDEO" />

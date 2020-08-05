@@ -60,20 +60,20 @@ public class Layout_Yahuarlocro extends AppCompatActivity {
                 "   3.  Frote con fuerza sin dañar el producto   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   4.  Deje reposar durante 10 minutos y enguaje con abundante agua fria  "
+                "   4.  Deje reposar durante 10 minutos y enguaje con agua fria"
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   5.  Cocine en una olla de presion aproximadamente 30 minutos, verifique  "
+                "   5.  Cocine en una olla de presion aproximadamente 30 minutos,"
                 + System.getProperty("line.separator") +
-                "       que este bien cocido(debe ser blando).   "
+                "       verifique que este bien cocido(debe ser blando).   "
                 + System.getProperty("line.separar")
                 + System.getProperty("line.separator") +
-                "   6.  Retire el menudo y corte las tripas en aros y la pansa en cubos  "
+                "   6.  Retire el menudo y corte las tripas en aros y en cubos  "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   7.  Reserve el liquido de coccion del menudo, se lo utilizara para  "
+                "   7.  Reserve el liquido de coccion del menudo, se lo utilizara"
                 + System.getProperty("line.separator") +
-                "       la elaboracion de la sopa   "
+                "       para la elaboracion de la sopa   "
                         
                         + System.getProperty("line.separator")
                         + System.getProperty("line.separator") +
@@ -118,13 +118,14 @@ public class Layout_Yahuarlocro extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Aguacate   "
+                "   * Aguacate   "
                 + System.getProperty("line.separator") +
-                "   Sangre   "
+                "   * Sangre   "
                 + System.getProperty("line.separator") +
-                "   Cebolla, limon   ";
+                "   * Cebolla, limon   ";
 
         text2.setText(con);
     }

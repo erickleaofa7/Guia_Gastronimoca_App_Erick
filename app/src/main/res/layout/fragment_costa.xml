@@ -20,7 +20,7 @@
     <ImageButton
         android:id="@+id/btnEncebollado"
         android:layout_width="match_parent"
-        android:layout_height="245dp"
+        android:layout_height="242dp"
         android:scaleType="fitStart"
         android:src="@drawable/encebollado" />
 
@@ -47,6 +47,7 @@
         android:layout_marginTop="20dp"
         android:drawableStart="@drawable/link"
         android:gravity="center"
+        android:background="@drawable/bordes_textview"
         android:text="PARA MAS RECETAS INGRESE AQUI"
         android:textSize="18sp" />
 

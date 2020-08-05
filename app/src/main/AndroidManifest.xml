@@ -3,6 +3,9 @@
     package="com.erick.guia_gastronimoca_app">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -42,6 +45,17 @@
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data android:scheme="@string/fb_login_protocol_scheme" /> </intent-filter> </activity>
+
+     <provider
+         android:authorities="com.erick.guia_gastronimoca_app.FileProvider"
+         android:name="androidx.core.content.FileProvider"
+         android:grantUriPermissions="true"
+         android:exported="false">
+         <meta-data
+             android:name="android.support.FILE_PROVIDER_PATHS"
+             android:resource="@xml/file_paths">
+         </meta-data>
+     </provider>
 
     </application>
 

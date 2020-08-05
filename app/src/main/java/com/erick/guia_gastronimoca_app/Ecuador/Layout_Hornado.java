@@ -23,7 +23,7 @@ public class Layout_Hornado extends AppCompatActivity {
                         + System.getProperty("line.separator") +
                         "            3. 40 dientes de ajo ~3 cabezas de ajo,   "
                         + System.getProperty("line.separator") +
-                        "                 machacados o enteros   "
+                        "               machacados o enteros   "
                         + System.getProperty("line.separator") +
                         "            4. 1/2 cebolla roja opcional "
                         + System.getProperty("line.separator") +
@@ -39,9 +39,9 @@ public class Layout_Hornado extends AppCompatActivity {
                         + System.getProperty("line.separator") +
                         "            9. 4-8 onzas de mantequilla o manteca    "
                         + System.getProperty("line.separator") +
-                        "            10. 2-3 cucharadas de achiote molido"
+                        "           10. 2-3 cucharadas de achiote molido"
                         + System.getProperty("line.separator") +
-                        "            11. Diez papas de tamaño mediano peladas y "
+                        "           11. Diez papas de tamaño mediano peladas y "
                         + System.getProperty("line.separator")+
                         "                cortadas por la mitad";
 
@@ -132,13 +132,14 @@ public class Layout_Hornado extends AppCompatActivity {
 
         text2 = findViewById(R.id.txtConsejo);
 
-        String con =      "   Se puede acompañar con: "
+        String con =
+                "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   Agrio  "
+                "   * Agrio  "
                 + System.getProperty("line.separator") +
-                "   Curtido de cebolla y tomate  "
+                "   * Curtido de cebolla y tomate  "
                 + System.getProperty("line.separator") +
-                "   Platanos maduros fritos   ";
+                "   * Platanos maduros fritos   ";
 
         text2.setText(con);
     }
