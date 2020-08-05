@@ -18,57 +18,58 @@ public class Layout_Sancocho extends AppCompatActivity {
         text = findViewById(R.id.txtEncevollado);
 
         String inf =
-                "            1. dos libras de albacora  "
+                "            1. Un Kg. de costilla de ternera  "
                 + System.getProperty("line.separator") +
-                "            2. libra y media de yuca    "
+                "            2. tres platanos verdes (viches)    "
                 + System.getProperty("line.separator") +
-                "            3. dos cebollas en rama    "
+                "            3. Un kg. de yuca troceada y deshilachada   "
                 + System.getProperty("line.separator") +
-                "            4. tres diente de ajo    "
+                "            4. Un kg. de papas peladas en trozos grandes  "
                 + System.getProperty("line.separator") +
-                "            5. un comino    "
+                "            5. Tres choclos tierno cortados en trozos "
                 + System.getProperty("line.separator") +
-                "            6. pimienta   "
+                "            6. dos cebollas cabezonas peladas  "
                 + System.getProperty("line.separator") +
-                "            7. aji peruano    "
+                "            7. cuatro tallos de cebolla larga peladas  "
                 + System.getProperty("line.separator") +
-                "            8. cilantro en rama    "
+                "            8. dos tallos de cebolla larga picada    "
                 + System.getProperty("line.separator") +
-                "            9. cilantro picado    "
+                "            9. dos manojos de cilantro cimarron   "
                 + System.getProperty("line.separator") +
-                "            10. salsa de cebollas    "
+                "            10. dos tomates verdes    "
                 + System.getProperty("line.separator") +
-                "            11. aceite    "
+                "            11. dos cubitos de caldo    "
                 + System.getProperty("line.separator") +
-                "            12. limom    "
-                + System.getProperty("line.separator") +
-                "            13. sal    ";
+                "            12. Sal y aliños al gustro    ";
+
         text.setText(inf);
 
         text1 = findViewById(R.id.txtPreparacion);
 
         String prep =
-                "   1.  En una olla onda se pone a hervir el albacora  "
+                "   1.  Picar las cebollas largas y los tomates verdes.  "
                 + System.getProperty("line.separator") +
-                "       el trozo entero, si se consigue comprar la    "
+                "       las cebollas cabezonas las debes machacar y poner    "
                 + System.getProperty("line.separator") +
-                "       cabeza tambien y se la pone a hervir con suficiente   "
+                "       todo esto junto, en una olla que sete acorde con la    "
                 + System.getProperty("line.separator") +
-                "       agua que tape los trozos de pescado, calculando seis   "
+                "       cantidad de ingredientes y la cantidad de agua a hervir  "
                 + System.getProperty("line.separator") +
-                "       platos hondos, se aliña con el ajo entero, las ramas   "
+                "       ademas de poner en la misma olla la cebolla larga entera  "
                 + System.getProperty("line.separator") +
-                "       de cebolla blanca, comino, pimienta al gusto.   "
+                "       y la cola de res, luego poner  fuego alto por 1 hora.   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   2.  Cuando el albacora este cocinada se saca del caldo   "
+                "   2.  Se baja la temperatura de coccion a fuego medio, debes   "
                 + System.getProperty("line.separator") +
-                "       y se reserva, se cierne el caldo.   "
+                "       tapar la olla nuevamente y dejar cocinar por 30 min mas   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   3.  En el mismo caldo se pone a cocinar la yuca en trozos   "
+                "   3.  Luego de este tiempo puedes sacar cebolla entera y el   "
                 + System.getProperty("line.separator") +
-                "       grandes, y cuando esta blanda se saca del caldo.   "
+                "       cilantro y agregar el platano y la papa, dejar que se   "
+                + System.getProperty("line.separator") +
+                "       cocine por unos 10 min aproximadamente con sal, comino   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
                 "   4.  En una taza se deshace las 2 cucharadas de aji peruano  "
