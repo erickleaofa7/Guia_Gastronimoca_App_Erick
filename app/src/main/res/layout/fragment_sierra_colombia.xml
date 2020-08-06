@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,16 +10,66 @@
     <!-- TODO: Update blank fragment layout -->
 
 <TextView
+    android:id="@+id/txtArrozC"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20sp"
     android:gravity="center"
     android:textSize="18sp"
-    android:text="PLATO SIERRA">
+    android:text="ARROZ CRIOLLO">
 
 </TextView>
 
+    <ImageButton
+        android:id="@+id/btnArrozC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrozCriollo" />
 
+    <TextView
+        android:id="@+id/txtAjiaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="AJIACO" />
+
+    <ImageButton
+        android:id="@+id/btnAjiaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ajiaco" />
+
+    <TextView
+        android:id="@+id/txtLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/link"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="@drawable/bordes_textview"
+        android:text="PARA MAS RECETAS INGRESE AQUI">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/boton_border_youtube"
+        android:textColor="#FFFFFF"
+        android:text="YOUTUBE VIDEO" />
+
+    <ImageButton
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/com_facebook_tooltip_black_topnub" />
 
 
 </LinearLayout>

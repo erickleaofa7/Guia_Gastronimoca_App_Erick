@@ -1,22 +1,20 @@
 package com.erick.guia_gastronimoca_app.Colombia;
 
+import androidx.appcompat.app.AppCompatActivity;
+import com.erick.guia_gastronimoca_app.R;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.erick.guia_gastronimoca_app.R;
-
-public class Layout_ArrozCriollo extends AppCompatActivity {
+public class Layout_ArrozC extends AppCompatActivity {
 
     TextView text, text1, text2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_layout__bandeja_p);
+        setContentView(R.layout.activity_layout__arroz_c);
 
-        text = findViewById(R.id.txtBandejaP);
+        text = findViewById(R.id.txtArrozC);
 
         String inf =
                 "            1. tres unidades de tomates  "

@@ -1,5 +1,6 @@
 package com.erick.guia_gastronimoca_app.ControladorColombia;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,7 +8,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
+import com.erick.guia_gastronimoca_app.Colombia.Layout_Ajiaco;
+import com.erick.guia_gastronimoca_app.Colombia.Layout_ArrozC;
+import com.erick.guia_gastronimoca_app.Paises;
 import com.erick.guia_gastronimoca_app.R;
 
 /**
@@ -25,6 +31,9 @@ public class sierraColombia extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    View vista;
+    ImageButton arrrozC, ajiaco, atras;
 
     public sierraColombia() {
         // Required empty public constructor
@@ -60,7 +69,36 @@ public class sierraColombia extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sierra_colombia, container, false);
+
+        vista = inflater.inflate(R.layout.fragment_sierra_colombia, container, false);
+        arrrozC = vista.findViewById(R.id.btnArrozC);
+        arrrozC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent arroz = new Intent(sierraColombia.this.getActivity(), Layout_ArrozC.class);
+                startActivity(arroz);
+                Toast.makeText(getContext(), "CIUDAD DE BOGOTA", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        ajiaco = vista.findViewById(R.id.btnAjiaco);
+        ajiaco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ajiaco = new Intent(sierraColombia.this.getActivity(), Layout_Ajiaco.class);
+                startActivity(ajiaco);
+                Toast.makeText(getContext(), "CIUDAD DE SANTA FE", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        atras = vista.findViewById(R.id.btnAtras);
+        atras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent atras = new Intent(sierraColombia.this.getActivity(), Paises.class);
+                startActivity(atras);
+            }
+        });
+        return vista;
     }
 }
