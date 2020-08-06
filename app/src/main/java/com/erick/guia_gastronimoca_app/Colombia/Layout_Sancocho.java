@@ -72,36 +72,15 @@ public class Layout_Sancocho extends AppCompatActivity {
                 "       cocine por unos 10 min aproximadamente con sal, comino   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   4.  En una taza se deshace las 2 cucharadas de aji peruano  "
+                "   4.  Dejamos cocinar durante 50 min, hasta que todos los  "
                 + System.getProperty("line.separator") +
-                "       se cierne y se añade al caldo de pescado, se deja   "
-                + System.getProperty("line.separator") +
-                "       hervir unos diez minutos aproximadamente.   "
+                "       ingredientes esten blandos.   "
                 + System.getProperty("line.separator")
                 + System.getProperty("line.separator") +
-                "   5.  Se agrega el cilantro entero y se de hervir 5 minutos  "
+                "   5.  Pasado el tiempo, retiramos la olla del fuego y servimos  "
                 + System.getProperty("line.separator") +
-                "       se salpimienta y se retira del fuego   "
-                + System.getProperty("line.separar")
-                + System.getProperty("line.separator") +
-                "   6.  La albacora es un pescado en que su carne una vez   "
-                + System.getProperty("line.separator") +
-                "       cocinada se puede deshojar   "
-                + System.getProperty("line.separator")
-                + System.getProperty("line.separator") +
-                "   7.  Se corta en cuadritos la yuca y se acomoda en un   "
-                + System.getProperty("line.separator") +
-                "       plato hondo de sopa, sobre el una porcion de albacora   "
-                + System.getProperty("line.separator") +
-                "       deshojada, se le agrega una taza y media de caldo de   "
-                + System.getProperty("line.separator") +
-                "       pescado, luego una porcion de salsa de cebolla, se   "
-                + System.getProperty("line.separator") +
-                "       espolvorea cilantro, una cucharada de aceite, se    "
-                + System.getProperty("line.separator") +
-                "       acompaña de medio limon para que el comensal lo exprima   "
-                + System.getProperty("line.separator") +
-                "       al gusto sobre el encebollado   ";
+                "       el sancocho.  ";
+
         text1.setText(prep);
 
         text2 = findViewById(R.id.txtConsejo);
@@ -109,11 +88,9 @@ public class Layout_Sancocho extends AppCompatActivity {
         String con =
                 "   Se puede acompañar con: "
                 + System.getProperty("line.separator") +
-                "   * Chifles   "
+                "   * Arroz blanco   "
                 + System.getProperty("line.separator") +
-                "   * Maiz tostado    "
-                + System.getProperty("line.separator") +
-                "   * Pan, aji   ";
+                "   * Aguacate y aji   ";
 
         text2.setText(con);
     }
